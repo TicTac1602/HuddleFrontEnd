@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+body{
+	margin: 0;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;	
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+@media all and (min-width: 1200px)
+{	
+	.top-page{
+		color: black;
+		background-size: contain;
+		background: url("../images/bg-hero-desktop.svg") no-repeat;
+		background-color: hsl(193, 100%, 96%);
+		padding:50px;
+		margin-bottom: 150px;		
+	}
+
+	header{
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+		margin-bottom: 50px;		
+	}
+
+	.tittle{
+		width: auto;
+	}
+
+	.main-container{
+		display: flex;
+		justify-content: space-between;		
+	}
+
+	/* zone dédié aux placement de l'image */
+
+	.mock{
+		width: 45%;
+	}
+
+	/* zone dédié à la mise en forme du texte */
+
+	.text{	
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+	}
+	.text h1 {
+		font-family: 'Poppins', sans-serif ;
+		font-weight: 600;
+		color: hsl(192, 100%, 9%);
+		font-size: 40px;
+		margin-top: 40px;
+		margin-bottom: 0;
+	}
+	.text p {
+		font-family: 'Open Sans', sans-serif ;
+		font-weight: 400;
+		color: hsl(192, 100%, 9%);
+		font-size: 16px;
+		margin-top: 25px;
+	}
+
+	/* zone dédié à la mise en forme du boutton register */
+
+	.button {
+		border-radius:25px;
+		background:hsl(322, 100%, 66%);
+		font: bold 15px 'Open Sans';
+		font-weight: 600;
+		box-shadow: 6px 10px 15px 4px rgba(0,0,0,0.22);
+		text-decoration: none;
+	}
+	#button{
+		margin-top: 10px;
+		padding: 15px 40px;
+		width: 50%;
+		color: white;
+	}
+	#top-button{
+		margin: 2px 0px;
+		padding: 15px;
+		width: 10%;
+		background: white;
+		color:  hsl(192, 100%, 9%);
+	}
+	
+
+	/* zone dédié au icon de réseau social */
+
+	.social{
+		display: flex;
+		justify-content: space-around;
+		width: 20vh;
+		position: fixed;
+		bottom: 10px;
+		right: 70px;	
+	}
+	.circle{
+		width: 25px;
+		height: 25px;
+		border: 2px solid white;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.white-circle{
+		color: white;
+	}
+
+	.section{
+		margin: 50px;
+		
+		box-shadow: 6px 10px 15px 4px rgba(0,0,0,0.22);
+		border-radius: 15px;
+	}
+	.section-content{
+		display: flex;
+		justify-content: space-between;
+	}
+	.section-content img{
+		width: 45%;
+	}
+	.section_text{
+		width: 40%;
+		margin-left: 90px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: hsl(192, 100%, 9%);
+	}
+	.section_text h2{
+		font-family: 'Poppins', sans-serif ;
+		font-weight: 600;
+		color: hsl(192, 100%, 9%);
+	}
+	.section_text p{
+		color: hsl(208, 11%, 55%);
+	}
+	#right{
+		margin-right: 30px;
+	}
+	#left{
+		margin-left: 90px;
+	}
+	#last{
+		margin-bottom: 150px;
+	}
+
+
+
+	.overlap{
+		z-index: 1;
+		
+		width: 50%;
+		height: 25vh;
+		padding-top: 20px;
+		background: white;
+		border-radius: 15px;
+		box-shadow: 6px 10px 15px 4px rgba(0,0,0,0.22);
+	}
+	.overlap h2 {
+		font-family: 'Poppins', sans-serif ;
+		font-weight: 600;
+		color: hsl(192, 100%, 9%);
+		margin-bottom: 50px;
+	}
+	#button-down{		
+		padding: 15px 40px;
+		width: 50%;
+		color: white;
+	}
+
+
+	.bottom-page{
+		background-color: hsl(192, 100%, 9%);
+	}
+	.tittle_bottom{
+		display: flex;
+		justify-content: space-around;
+	}
+	.network{
+		color: white;
+		width: 25%;
+		background-color: green;
+	}
+	.social-box{
+		margin-bottom: 15px;
+		line-height: 10px;
+		font-size: 10px;
+	}
+	.links{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		background: yellow;
+	}
+	.links a{
+		margin-bottom: 15px;
+		color: white;
+		text-decoration: none;
+	}
+	.copyright{
+		color: white;
+		background: purple;
+	}
+	
+}
