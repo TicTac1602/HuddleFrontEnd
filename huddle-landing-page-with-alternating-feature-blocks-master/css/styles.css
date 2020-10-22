@@ -78,11 +78,17 @@ html{
 		box-shadow: 6px 10px 15px 4px rgba(0,0,0,0.22);
 		text-decoration: none;
 	}
+	#button:hover{
+		background: white;
+		color:  hsl(192, 100%, 9%);
+		transition: 0.5s;
+	}
 	#button{
 		margin-top: 10px;
 		padding: 15px 40px;
 		width: 50%;
 		color: white;
+		transition: 0.5s;
 	}
 	#top-button{
 		margin: 2px 0px;
@@ -90,6 +96,11 @@ html{
 		width: 10%;
 		background: white;
 		color:  hsl(192, 100%, 9%);
+		transition: 0.5s;
+	}
+	#top-button:hover{
+		background: hsl(322, 100%, 66%);;
+		color:  white;
 	}
 	
 
@@ -159,8 +170,6 @@ html{
 
 
 	.overlap{
-		z-index: 1;
-		
 		width: 50%;
 		height: 25vh;
 		padding-top: 20px;
@@ -184,25 +193,29 @@ html{
 	.bottom-page{
 		background-color: hsl(192, 100%, 9%);
 	}
-	.tittle_bottom{
+
+	.content_bottom{
 		display: flex;
 		justify-content: space-around;
 	}
 	.network{
 		color: white;
 		width: 25%;
-		background-color: green;
 	}
 	.social-box{
+		display: flex;
+		align-items: center;
 		margin-bottom: 15px;
 		line-height: 10px;
 		font-size: 10px;
+	}
+	.social-box img {
+		margin-right: 20px;
 	}
 	.links{
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		background: yellow;
 	}
 	.links a{
 		margin-bottom: 15px;
@@ -210,8 +223,14 @@ html{
 		text-decoration: none;
 	}
 	.copyright{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
 		color: white;
-		background: purple;
+		margin: 15px;
+	}
+	.copyright p{
+		font-size: 10px;
 	}
 	
 }
