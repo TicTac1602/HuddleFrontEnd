@@ -170,6 +170,8 @@ html{
 
 
 	.overlap{
+		postion:relative;
+		top:-100px;
 		width: 50%;
 		height: 25vh;
 		padding-top: 20px;
